@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Coffee Shop</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+
+    <section class="welcome_cafe centered">
+        <h1>Bienvenue à mon café! </h1>
+    </section>
+    <br/>
+
+    <section class="menu">
+        <h2>Le Menu</h2>
+    </section>
+    <br/>
+        <h2>Choisissez votre café, s'il vous plaît</h2>
+
+        <div class="wrapper">
+            <div class="box box1">Café</div>
+            <div class="box box2">Price: 5.99</div>
+
+            <div class="box">Noisette</div>
+            <div class="box">Price: 5.99</div>
+
+            <div class="box">Café Crème</div>
+            <div class="box">Price: 5.99</div>
+
+            <div class="box">Café Viennoise</div>
+            <div class="box">Price: 5.99</div>
+
+            <div class="box">Café Americana</div>
+            <div class="box">Price: 5.99</div>
+
+            <div class="box">Chocolat Chaud</div>
+            <div class="box">Price: 5.99</div>
+
+            <div class="box">Thé Vert</div>
+            <div class="box">Price: 5.99</div>
+        </div>
+    <br/>
+
+    <form>
+        <label for="coffee_input">Café:</label>
+        <input type="text" id="coffee_input" name="coffee_input">
+    </form>
+    <br>
+
+    <form>
+        <h2>Combien des sucres vous voulez?</h2>
+        <label for="sugar_input">Combien?:</label>
+        <input type="number" id="sugar_input" name="sugar_input">
+    </form>
+    <br>
+
+    <button type="submit" class="button">Sign up</button>
+
+
+    <section class="total">
+        <h3>Votre total est: </h3>
+    </section>
+
+</div>
+</body>
+</html>
